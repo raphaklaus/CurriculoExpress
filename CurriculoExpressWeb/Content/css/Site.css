@@ -1,0 +1,107 @@
+﻿body 
+{
+    padding-top: 40px;    
+}
+
+.brand-panel-image
+{
+    background-image: url(/Content/images/static.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    width: 100%;
+}
+
+.row
+{
+  margin-left: 
+}
+
+
+.validacoes-curriculo
+{
+  height: auto;
+  width: auto;
+}
+
+.info-left
+{      
+    padding: 25px 10px 10px 10px;          
+    width: 420px;
+    font-family: "nexaLight";
+    font-size: large;
+}
+
+.form-horizontal .form-group
+{
+  margin-left: -80px;
+}
+
+.field-validation-error
+{
+  display: block;
+}
+
+.info-right
+{
+    text-align: right;        
+    width: 320px;
+    margin: 150px 50px 0 0;
+    float: right;
+    font-family: "nexaLight";
+    font-size: large;
+}
+
+.over-image-text
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #2c4279;
+    display:inline;
+}
+
+.over-image-text-right
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display:inline;
+}
+
+
+.form-container
+{
+  
+  background-color: #ecf0f1;
+  margin: 1px 30px 80px 30px;
+  padding: 1px 30px 30px 30px;
+}
+
+.container
+{
+    width: 100%;
+    height: 490px;
+    margin-top: 20px;
+}
+
+.brand
+{
+    margin-left: 12px;
+    color: #2c3e50;
+}
+
+.brand-font
+{
+    font-family: "nexaBold";
+    font-size: xx-large;
+    color: #2c3e50;
+}
+
+.page-header
+{
+    border-bottom: 1px solid #cecece;
+    margin: 15px 0 15px 0;
+}
+
+.panel-body
+{
+    background-color: white;  
+}

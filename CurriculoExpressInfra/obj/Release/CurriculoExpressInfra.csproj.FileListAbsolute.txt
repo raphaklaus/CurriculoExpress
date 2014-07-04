@@ -1,0 +1,16 @@
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\CurriculoExpressInfra.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\CurriculoExpressInfra.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\CurriculoExpressDomain.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\FluentNHibernate.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\Iesi.Collections.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\NHibernate.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\Npgsql.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\Mono.Security.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\CurriculoExpressDomain.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\FluentNHibernate.xml
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\Iesi.Collections.xml
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\Npgsql.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Release\Npgsql.xml
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\obj\Release\CurriculoExpressInfra.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\obj\Release\CurriculoExpressInfra.pdb

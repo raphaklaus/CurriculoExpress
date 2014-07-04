@@ -1,0 +1,16 @@
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\CurriculoExpressInfra.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\CurriculoExpressInfra.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\CurriculoExpressDomain.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\FluentNHibernate.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Iesi.Collections.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\NHibernate.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Npgsql.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Mono.Security.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\CurriculoExpressDomain.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\FluentNHibernate.xml
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Iesi.Collections.xml
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Npgsql.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\bin\Npgsql.xml
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\obj\Debug\CurriculoExpressInfra.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressInfra\obj\Debug\CurriculoExpressInfra.pdb

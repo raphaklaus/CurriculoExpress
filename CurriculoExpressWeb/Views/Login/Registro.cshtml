@@ -1,0 +1,24 @@
+﻿@model CurriculoExpressDomain.UsuarioRegistro
+
+  @using (Html.BeginForm("Registrar", "Login"))
+  {
+    <div class="modal-body">
+      <div class="input-group">
+        <fieldset>
+          @Html.TextBoxFor(x => x.CPF, new { id = "cpf-registro", @class = "form-control", placeholder = "CPF", maxlength = "11" })
+        </fieldset>
+        <fieldset>  
+          @Html.TextBoxFor(x => x.Senha, new { id = "senha-registro", @class = "form-control", placeholder = "Senha", maxlength = "20", type = "password" })
+        </fieldset>
+        <div class="validacoes-login">
+          @Html.ValidationMessageFor(m => m.CPF) <br />
+          @Html.ValidationMessageFor(m => m.Senha)
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+      <button type="submit" class="btn btn-primary">Cadastrar</button> 
+  </div>
+  }

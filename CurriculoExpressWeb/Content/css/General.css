@@ -1,0 +1,31 @@
+﻿@font-face {
+    font-family: "nexaBold";
+    font-style: nexaBold;
+    font-weight: normal;
+    src: url("../fonts/nexaBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "nexaLight";
+    font-style: nexaLight;
+    font-weight: normal;
+    src: url("../fonts/nexaLight.woff") format("woff");
+}
+
+h1,h2,h3,h4,h5
+{
+    font-family: "nexaBold";
+    
+    color: #2c3e50;
+}
+
+.navbar-default
+{
+    background-color: #ecf0f1;
+    background-image: none;
+}
+
+fieldset {
+    padding: 0 1.8em 1.4em 2.0em;
+    margin: 10 10 1.5em 0;
+}

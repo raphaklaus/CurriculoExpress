@@ -1,0 +1,52 @@
+﻿@model CurriculoExpressDomain.Curriculo
+
+@{
+    ViewBag.Title = "Impressao";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-container">
+
+  <h1 class="page-header">Impressão</h1>
+
+  <fieldset>
+
+    <div class="row">
+
+      <div class="col-md-10">
+          Nome completo: @Model.Nome
+      </div>
+
+
+      <div class="col-md-3">
+        CPF: @Model.CPF
+      </div>
+
+      <div class="col-md-4">
+        Identidade: @Model.Identidade
+      </div>
+
+      <div class="col-md-3">
+        Orgão Emissor: @Model.OrgaoEmissor
+      </div>    
+      
+      <div class="col-md-10">
+        Endereço: @Model.Endereco  
+      </div>    
+
+      <div class="col-md-4">
+        Estado: @Model.Estado
+      </div>   
+
+      <div class="col-md-6">
+        Cidade: @Model.Cidade
+      </div>           
+   </div>   
+
+  </fieldset>
+</div>
+
+<p>
+  @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
+  @Html.ActionLink("Back to List", "Index")
+</p>

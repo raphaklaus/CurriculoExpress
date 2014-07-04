@@ -1,0 +1,62 @@
+﻿@model CurriculoExpressDomain.UsuarioLogin
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>Login</title>
+  @Styles.Render("~/Content/base")
+  @Styles.Render("~/Content/login")
+
+</head>
+<body>
+    <div id="login" class="fadeInDown animated">
+        <div class="panel panel-default">
+            <div class="panel-heading-login"><h3>Login</h3></div>
+            <div class="panel-body">
+              @using (Html.BeginForm("Logar", "Login"))
+              {
+                <div class="input-group">
+                  <fieldset>
+                    @Html.TextBoxFor(x => x.CPF, new { id = "cpf", @class = "form-control", placeholder = "CPF", maxlength = "11" })
+                  </fieldset>
+                  <fieldset>  
+                    @Html.TextBoxFor(x => x.Senha, new { id = "senha", @class = "form-control", placeholder = "Senha", maxlength = "20", type = "password" })
+                  </fieldset>
+                  <fieldset>
+                    <div>
+                      @ViewBag.ErroLogin
+                    </div>
+                  </fieldset>
+                           
+                <button class="btn btn-success btn-large"><i class="icon-white icon-play"></i> Logar</button>     
+             
+                <a class="btn btn-danger btn-large" data-toggle="modal" data-target="#myModal"><i class="icon-white icon-pencil"></i> Ainda não sou cadastrado</a>
+                </div> 
+              } 
+            </div>
+        </div>    
+    </div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Realizar registro</h4>
+      </div>
+        @Html.Partial("Registro")            
+    </div>
+  </div>
+</div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrapjs")
+    @Scripts.Render("~/bundles/myjs")
+    @Scripts.Render("~/bundles/jqueryval")
+</body>
+</html>
+

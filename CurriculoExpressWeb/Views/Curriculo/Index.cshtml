@@ -1,0 +1,73 @@
+﻿@model CurriculoExpressDomain.Curriculo
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-container">
+  <h1 class="page-header">Cadastro</h1>
+      @using (Html.BeginForm("Acao", "Curriculo", FormMethod.Post, new {@class = "form-horizontal"}))
+      {      
+        <fieldset>
+
+          <div class="row">
+
+            <div class="col-md-12">
+              <label >Nome completo</label>
+              @Html.TextBoxFor(x => x.Nome, new { id = "nome", @class = "form-control", placeholder = "Nome completo", maxlength = "255" })
+            </div>
+
+
+            <div class="col-md-4">
+              <label>CPF</label>
+                @Html.TextBoxFor(x => x.CPF, new { id = "cpf-curriculo", @class = "form-control", placeholder = "CPF", maxlength = "14" })
+              </div>
+
+            <div class="col-md-5">
+              <label>Identidade</label>
+                @Html.TextBoxFor(x => x.Identidade, new { id = "identidade", @class = "form-control", placeholder = "Identidade", maxlength = "12" })
+              </div>
+
+            <div class="col-md-3">
+              <label>Orgão Emissor</label>
+                @Html.TextBoxFor(x => x.OrgaoEmissor, new { id = "orgaoemissoro", @class = "form-control", placeholder = "Orgão Emissor", maxlength = "5" })
+              </div>    
+      
+            <div class="col-md-12">
+              <label >Endereço</label>
+              @Html.TextBoxFor(x => x.Endereco, new { id = "endereco", @class = "form-control", placeholder = "Endereço", maxlength = "255" })
+            </div>    
+
+            <div class="col-md-4">
+              <label >Estado</label>
+                <select id="estado" name="Estado"  maxlength="2" data-val="true" data-val-required="Por favor, preencha o Estado." data-val-length-max="2"  class="form-control"></select>
+            </div>   
+
+            <div class="col-md-8">
+              <label >Cidade</label>
+                <select id="cidade" name="Cidade"  maxlength="2" data-val="true" data-val-required="Por favor, preencha o Cidade." data-val-length-max="2"  class="form-control"></select>
+            </div>   
+                
+            <br />
+
+            <div class="col-md-8">
+              @Html.ValidationSummary()
+            </div>   
+
+            <div class="col-lg-10">
+              <input type="reset" class="btn btn-danger" value="Limpar"/>
+              <button type="submit" class="btn btn-info" name="Comando" value="Impressao">Imprimir</button>
+              <button type="submit" class="btn btn-success" name="Comando" value="Criar">Salvar</button>
+            </div>
+
+        </div> 
+           
+      </fieldset>        
+
+      } 
+      
+</div>
+
+
+

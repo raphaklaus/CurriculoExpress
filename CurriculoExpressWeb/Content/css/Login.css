@@ -1,0 +1,97 @@
+﻿body 
+{
+    background: url(/Content/images/login_bg.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;      
+    font-family: Sans-Serif;
+}
+
+.validacoes-login
+{
+  text-align: left;
+  padding: 0 1.8em 0 2.0em;
+  margin: 10 10 0 0;
+}
+
+.panel-heading-login
+{
+    text-align: center;     
+    background-color: #f7f7f7;
+}
+
+.panel-body
+{
+    -webkit-box-shadow: 8px 9px 20px 0px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow:    8px 9px 20px 0px rgba(0, 0, 0, 0.85);
+    box-shadow:         8px 9px 20px 0px rgba(0, 0, 0, 0.85);
+}
+
+.input-group
+{
+  display: block;
+}
+
+#login
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    opacity: 0.85;  
+
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}

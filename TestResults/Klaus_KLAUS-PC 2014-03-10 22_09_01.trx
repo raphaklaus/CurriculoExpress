@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3ffaff34-7366-4f32-b789-e32cf3466cde" name="Klaus@KLAUS-PC 2014-03-10 22:09:01" runUser="Klaus-PC\Klaus" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="bf457def-5cbd-4b99-88a7-da3f9b30f2a5">
+    <Deployment runDeploymentRoot="Klaus_KLAUS-PC 2014-03-10 22_09_01">
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressWeb\bin\CurriculoExpressWeb.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-10T22:09:01.2143461-03:00" queuing="2014-03-10T22:09:02.7704351-03:00" start="2014-03-10T22:09:03.0204494-03:00" finish="2014-03-10T22:09:04.5475367-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\klaus\desktop\projeto pack web\curriculoexpress\curriculoexpress.tests\bin\debug\curriculoexpress.tests.dll" id="c7a8280a-ed87-7702-351b-c458ea3375e2">
+      <Execution id="9e331634-8e55-4df0-a9ed-9d6628627ec0" />
+      <TestMethod codeBase="C:/Users/Klaus/Desktop/Projeto Pack Web/CurriculoExpress/CurriculoExpress.Tests/bin/Debug/CurriculoExpress.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CurriculoExpressWeb.Tests.Models.LoginTest, CurriculoExpress.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c7a8280a-ed87-7702-351b-c458ea3375e2" executionId="9e331634-8e55-4df0-a9ed-9d6628627ec0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9e331634-8e55-4df0-a9ed-9d6628627ec0" testId="c7a8280a-ed87-7702-351b-c458ea3375e2" testName="TestMethod1" computerName="KLAUS-PC" duration="00:00:00.0153940" startTime="2014-03-10T22:09:03.3004654-03:00" endTime="2014-03-10T22:09:04.1825158-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e331634-8e55-4df0-a9ed-9d6628627ec0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

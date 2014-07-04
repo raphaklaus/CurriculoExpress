@@ -1,0 +1,5 @@
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressDomain\bin\CurriculoExpressDomain.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressDomain\bin\CurriculoExpressDomain.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressDomain\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressDomain\obj\Debug\CurriculoExpressDomain.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressDomain\obj\Debug\CurriculoExpressDomain.pdb

@@ -1,0 +1,8 @@
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressData\bin\Release\CurriculoExpressData.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressData\bin\Release\CurriculoExpressData.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressData\bin\Release\CurriculoExpressDomain.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressData\bin\Release\NHibernate.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressData\bin\Release\CurriculoExpressDomain.pdb
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressData\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressData\obj\Release\CurriculoExpressData.dll
+C:\Users\Klaus\Desktop\Projeto Pack Web\CurriculoExpress\CurriculoExpressData\obj\Release\CurriculoExpressData.pdb
